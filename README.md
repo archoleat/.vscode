@@ -10,7 +10,7 @@
 
 > [!TIP]
 > Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror),
-> [**Conqueror**](https://github.com/Conqueror-Site-Builder/browtest)
+> [**Browtest**](https://github.com/Conqueror-Site-Builder/browtest)
 > or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template)!
 <!-- > [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui), -->
 
