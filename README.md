@@ -15,11 +15,11 @@
 <!-- > [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui), -->
 
 > [!WARNING]
-> This repository contains configuration and snippets for
-> **Visual Studio Code & TypeScript only**, if you want configuration and snippet files
+> This repository contains snippets for
+> **TypeScript only**, if you want snippet files
 > to be added for your IDE or code editor please create an
 > [**issue**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/issues/new/choose)
-> or **Pull Request** with the new files.
+> or **Pull Request** with the new snippets.
 
 ## Visual Studio Code
 
@@ -27,10 +27,6 @@ The following files are located in this repository:
 
 -   [**`extensions.json`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/extensions.json):
     Recommended extensions for **vscode**.
-
--   [**`settings.json`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/settings.json):
-    Settings file for **vscode**, here we have emphasized
-    minimalism and easy work with **git**.
 
 -   [**`json.code-snippets`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/json.code-snippets).
 
