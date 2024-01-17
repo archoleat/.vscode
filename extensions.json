@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "chakrounanas.turbo-console-log",
+    "christian-kohler.path-intellisense",
+    "ducfilan.pug-formatter",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
+    "github.github-vscode-theme",
+    "github.remotehub",
+    "github.vscode-github-actions",
+    "meganrogge.template-string-converter",
+    "mintlify.document",
+    "mrmlnc.vscode-scss",
+    "ms-vscode.remote-repositories",
+    "pkief.material-icon-theme",
+    "redhat.vscode-yaml",
+    "sibiraj-s.vscode-scss-formatter",
+    "treetsidesoftware.code-spell-checker",
+    "unifiedjs.vscode-remark",
+    "usernamehw.errorlens",
+    "vunguyentuan.vscode-css-variables"
+  ]
+}

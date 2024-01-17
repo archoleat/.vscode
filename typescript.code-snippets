@@ -1,0 +1,127 @@
+{
+  // Imports
+  "Import: Package": {
+    "scope": "typescript",
+    "prefix": "ip",
+    "body": "import ${1:name} from '${2:name}';"
+  },
+  // Listeners
+  "Event: Listener": {
+    "scope": "typescript",
+    "prefix": "el",
+    "body": "document.addEventListener('${1:event}', (event) => {\n\t$2\n});"
+  },
+  "Event: Listener (click)": {
+    "scope": "typescript",
+    "prefix": "elc",
+    "body": "document.addEventListener('click', (event) => {\n\t$0\n});"
+  },
+  // Document queries
+  "Const: Document (query selector all)": {
+    "scope": "typescript",
+    "prefix": "cdqsa",
+    "body": "const ${1:elements} = document.querySelectorAll('${2:element}');"
+  },
+  "Const: Document (query selector)": {
+    "scope": "typescript",
+    "prefix": "cdqs",
+    "body": "const ${1:element} = document.querySelector('${2:element}');"
+  },
+  "Const: Get Element (by id)": {
+    "scope": "typescript",
+    "prefix": "cgebi",
+    "body": "const ${1:element} = document.getElementById('${2:element}');"
+  },
+  // Consts
+  "Const: Empty": {
+    "scope": "typescript",
+    "prefix": "ce",
+    "body": "const ${1:element} = $2;"
+  },
+  "Const: Target Element (event.target)": {
+    "scope": "typescript",
+    "prefix": "cte",
+    "body": "const targetElement = event.target;"
+  },
+  // Functions
+  "Function: Expression": {
+    "scope": "typescript",
+    "prefix": "fe",
+    "body": "const ${1:name} = (${2:arguments}) => {\n\t$3\n};"
+  },
+  "Function: Method": {
+    "scope": "typescript",
+    "prefix": "fm",
+    "body": "${1:name}(${2:arguments}) {\n\t$3\n};"
+  },
+  // Loops
+  "Loop: For Each": {
+    "scope": "typescript",
+    "prefix": "lfe",
+    "body": "${1:array}.forEach((${2:item}) => {\n\t$3\n});"
+  },
+  // Time
+  "Set: Interval (0)": {
+    "scope": "typescript",
+    "prefix": "si",
+    "body": "setInterval(($1) => {\n\t$2\n}, ${3:0});"
+  },
+  "Set: Timeout (0)": {
+    "scope": "typescript",
+    "prefix": "st",
+    "body": "setTimeout(($1) => {\n\t$2\n}, ${3:0});"
+  },
+  // Elements Operations
+  "Element: Add (class)": {
+    "scope": "typescript",
+    "prefix": "eac",
+    "body": "${1:element}.classList.add('${2:name}');"
+  },
+  "Element: Toggle (class)": {
+    "scope": "typescript",
+    "prefix": "etc",
+    "body": "${1:element}.classList.toggle('${2:name}');"
+  },
+  "Element: Remove (class)": {
+    "scope": "typescript",
+    "prefix": "erc",
+    "body": "${1:element}.classList.remove('${2:name}');"
+  },
+  "Element: Set (attribute)": {
+    "scope": "typescript",
+    "prefix": "esa",
+    "body": "${1:element}.setAttribute('${2:name}', ${3:value});"
+  },
+  "Element: Get (attribute)": {
+    "scope": "typescript",
+    "prefix": "ega",
+    "body": "${1:element}.dataset.${2:name};"
+  },
+  "Element: Remove (attribute)": {
+    "scope": "typescript",
+    "prefix": "era",
+    "body": "${1:element}.removeAttribute('${2:name}');"
+  },
+  // Insert
+  "Insert: Adjacent (HTML)": {
+    "scope": "typescript",
+    "prefix": "iah",
+    "body": "${1:element}.insertAdjacentHTML('beforeend', $2);"
+  },
+  "Insert: Inner (HTML)": {
+    "scope": "typescript",
+    "prefix": "iih",
+    "body": "${1:element}.innerHTML = $2;"
+  },
+  // Handle JSON
+  "Handle: Parse (JSON)": {
+    "scope": "typescript",
+    "prefix": "hpj",
+    "body": "JSON.parse($0);"
+  },
+  "Handle: Stringify (JSON)": {
+    "scope": "typescript",
+    "prefix": "hsj",
+    "body": "JSON.stringify($0);"
+  }
+}

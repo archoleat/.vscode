@@ -1,0 +1,20 @@
+{
+  // Object
+  "Object": {
+    "scope": "json",
+    "prefix": "o",
+    "body": "\"${1:title}\": {\n\t\"${2:key}\": \"${3:value}\"\n}"
+  },
+  // Array
+  "Array": {
+    "scope": "json",
+    "prefix": "a",
+    "body": "\"${1:title}\": [\n\t\"${2:item}\"\n]"
+  },
+  // Item
+  "Item": {
+    "scope": "json",
+    "prefix": "i",
+    "body": "\"${1:key}\": \"${2:value}\"\n"
+  }
+}
