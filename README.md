@@ -6,7 +6,7 @@
 -   [Versioning](#versioning)
 -   [License](#license)
 
-**Settings for VSCode** is a helper package for easier development.
+**Settings for Visual Studio Code** is a helper package for easier development.
 
 > [!TIP]
 > Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror),
