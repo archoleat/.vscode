@@ -14,6 +14,7 @@
     "meganrogge.template-string-converter",
     "mintlify.document",
     "mrmlnc.vscode-scss",
+    "ms-playwright.playwright",
     "ms-vscode.remote-repositories",
     "pkief.material-icon-theme",
     "redhat.vscode-yaml",
