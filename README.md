@@ -15,26 +15,22 @@
 <!-- > [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui), -->
 
 > [!WARNING]
-> This repository contains snippets for
-> **TypeScript only**, if you want snippet files
-> to be added for your IDE or code editor please create an
-> [**issue**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/issues/new/choose)
-> or **Pull Request** with the new snippets.
+> This repository contains snippets for **TypeScript only**.
 
 ## Visual Studio Code
 
 The following files are located in this repository:
 
--   [**`extensions.json`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/extensions.json):
+-   [**`extensions.json`**](https://github.com/Conqueror-Site-Builder/.helpers/blob/main/.vscode/extensions.json):
     Recommended extensions for **vscode**.
 
--   [**`json.code-snippets`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/json.code-snippets).
+-   [**`json.code-snippets`**](https://github.com/Conqueror-Site-Builder/.helpers/blob/main/.vscode/json.code-snippets).
 
--   [**`typescript.code-snippets`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/typescript.code-snippets).
+-   [**`typescript.code-snippets`**](https://github.com/Conqueror-Site-Builder/.helpers/blob/main/.vscode/typescript.code-snippets).
 
--   [**`jade.code-snippets`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/jade.code-snippets).
+-   [**`jade.code-snippets`**](https://github.com/Conqueror-Site-Builder/.helpers/blob/main/.vscode/jade.code-snippets).
 
--   [**`scss.code-snippets`**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/blob/main/.vscode/scss.code-snippets).
+-   [**`scss.code-snippets`**](https://github.com/Conqueror-Site-Builder/.helpers/blob/main/.vscode/scss.code-snippets).
 
     <!-- > If you are going to use snippets of scss functions or mixins then
     > you need to install the [**ArchUI**](https://github.com/Conqueror-Site-Builder/arch-ui) Library. -->
