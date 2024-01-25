@@ -3,6 +3,7 @@
     "aaron-bond.better-comments",
     "chakrounanas.turbo-console-log",
     "christian-kohler.path-intellisense",
+    "chrmarti.regex",
     "ducfilan.pug-formatter",
     "eamodio.gitlens",
     "editorconfig.editorconfig",
@@ -11,6 +12,7 @@
     "github.github-vscode-theme",
     "github.remotehub",
     "github.vscode-github-actions",
+    "jakob101.relativepath",
     "meganrogge.template-string-converter",
     "mintlify.document",
     "mrmlnc.vscode-scss",
@@ -22,6 +24,7 @@
     "treetsidesoftware.code-spell-checker",
     "unifiedjs.vscode-remark",
     "usernamehw.errorlens",
-    "vunguyentuan.vscode-css-variables"
+    "vunguyentuan.vscode-css-variables",
+    // "yzhang.markdown-all-in-one"
   ]
 }
