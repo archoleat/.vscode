@@ -24,7 +24,6 @@
     "treetsidesoftware.code-spell-checker",
     "unifiedjs.vscode-remark",
     "usernamehw.errorlens",
-    "vunguyentuan.vscode-css-variables",
-    // "yzhang.markdown-all-in-one"
+    "vunguyentuan.vscode-css-variables"
   ]
 }
