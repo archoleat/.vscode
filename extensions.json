@@ -1,10 +1,8 @@
 {
   "recommendations": [
-    "aaron-bond.better-comments",
     "chakrounanas.turbo-console-log",
     "christian-kohler.path-intellisense",
     "chrmarti.regex",
-    "dsznajder.es7-react-js-snippets",
     "ducfilan.pug-formatter",
     "eamodio.gitlens",
     "editorconfig.editorconfig",
@@ -13,7 +11,6 @@
     "github.github-vscode-theme",
     "github.remotehub",
     "github.vscode-github-actions",
-    "jakob101.relativepath",
     "meganrogge.template-string-converter",
     "mintlify.document",
     "monish.regexsnippets",
