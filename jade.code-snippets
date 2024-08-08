@@ -1,15 +1,4 @@
 {
-  // Class
-  "Class: Active": {
-    "scope": "jade",
-    "prefix": "ca",
-    "body": ".active"
-  },
-  "Class: Fullscreen": {
-    "scope": "jade",
-    "prefix": "cf",
-    "body": ".fullscreen"
-  },
   // Loops
   "Loop: Each": {
     "scope": "jade",
@@ -22,26 +11,20 @@
     "prefix": "ct",
     "body": "$1 ? $2 : $3"
   },
-  // Includes
-  "Include: Markdown": {
-    "scope": "jade",
-    "prefix": "im",
-    "body": "include:markdown-it markdown/$0.md"
-  },
   "Image: Background": {
     "scope": "jade",
     "prefix": "ibg",
-    "body": ".bg-image.${1:name}__image\n\timg(src='@img$2' alt='$3' loading='lazy')"
+    "body": ".bg-cover.${1:name}__image\n\timg(src='@img$2' alt='$3' loading='lazy')"
   },
   "Image: Background (link)": {
     "scope": "jade",
     "prefix": "ibgl",
-    "body": "a.bg-image.${1:name}__image(href='$2')\n\timg(src='@img$3' alt='$4' loading='lazy')"
+    "body": "a.bg-cover.${1:name}__image(href='$2')\n\timg(src='@img$3' alt='$4' loading='lazy')"
   },
   "Image: Sprite (SVG)": {
     "scope": "jade",
     "prefix": "is",
-    "body": "svg\n\tuse(href='@img/icons/sprite.svg#$0')"
+    "body": "svg\n\tuse(href='@images/icons/sprite.svg#$0')"
   },
   // Buttons
   "Button": {
@@ -54,17 +37,11 @@
     "prefix": "bl",
     "body": "a.button(href='$1' ${2:target='_blank'} ${2:rel='noopener'}) $3"
   },
-  // Sections
-  "Component: Section": {
-    "scope": "jade",
-    "prefix": "cs",
-    "body": "section.${1:name}\n\t$2"
-  },
   // Components
-  "Component: Breadcrumb": {
+  "Component: Breadcrumbs": {
     "scope": "jade",
     "prefix": "cb",
-    "body": "nav.breadcrumb(aria-label='breadcrumb')\n\tul.breadcrumb__list\n\t\tli.link\n\t\t\ta(href='#') ${1:prev}\n\t\tli.link\n\t\t\tspan(aria-current='page') ${2:current}"
+    "body": "nav.breadcrumbs(aria-label='breadcrumbs')\n\tul.breadcrumbs__list\n\t\tli.link\n\t\t\ta(href='#') ${1:prev}\n\t\tli.link\n\t\t\tspan(aria-current='page') ${2:current}"
   },
   "Component: Swiper": {
     "scope": "jade",
@@ -86,15 +63,5 @@
     "scope": "jade",
     "prefix": "cc",
     "body": ".checkboxes\n\tlabel.checkbox\n\t\tinput.checkbox__input(type='checkbox' name='checkbox')\n\t\tspan.checkbox__box\n\t\t\tsvg\n\t\t\t\tuse(href='@img/icons/sprite.svg#${0:check}')\n\t\t| text"
-  },
-  "Component: Textarea": {
-    "scope": "jade",
-    "prefix": "cte",
-    "body": "textarea.${1:input}(autocomplete='${2:given-name}' name='${3:message}' placeholder='$4')"
-  },
-  "Component: Input": {
-    "scope": "jade",
-    "prefix": "ci",
-    "body": "input.${1:input}(type='${2:text}' inputmode='text' autocomplete='${3:given-name}' name='${4:input}' placeholder='$5')"
   }
 }
