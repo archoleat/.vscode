@@ -1,31 +1,31 @@
 {
   // Imports
   "Import: Package": {
-    "scope": "typescript",
+    "scope": "typescriptreact",
     "prefix": "ip",
     "body": "import {${1:name}} from '${2:name}';"
   },
   // Consts
   "Const: Empty": {
-    "scope": "typescript",
+    "scope": "typescriptreact",
     "prefix": "ce",
     "body": "const ${1:element} = $2;"
   },
   // Functions
   "Function: Expression": {
-    "scope": "typescript",
+    "scope": "typescriptreact",
     "prefix": "fe",
     "body": "const ${1:name} = (${2:arguments}) => {\n\t$3\n};"
   },
   "Function: Method": {
-    "scope": "typescript",
+    "scope": "typescriptreact",
     "prefix": "fm",
     "body": "${1:name}(${2:arguments}) {\n\t$3\n};"
   },
   // Loops
   "Loop: For Each": {
-    "scope": "typescript",
+    "scope": "typescriptreact",
     "prefix": "lfe",
-    "body": "${1:array}.forEach((${2:item}) => {\n\t$3\n});"
+    "body": "${1:array}.map((${2:item}) => {\n\t$3\n});"
   }
 }
