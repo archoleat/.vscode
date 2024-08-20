@@ -1,8 +1,6 @@
 {
   "recommendations": [
-    "chakrounanas.turbo-console-log",
     "christian-kohler.path-intellisense",
-    "chrmarti.regex",
     "ducfilan.pug-formatter",
     "eamodio.gitlens",
     "editorconfig.editorconfig",
