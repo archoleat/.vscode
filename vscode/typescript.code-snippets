@@ -1,0 +1,31 @@
+{
+  // Imports
+  "Import: Package": {
+    "scope": "typescript",
+    "prefix": "ip",
+    "body": "import {${1:name}} from '${2:name}';"
+  },
+  // Consts
+  "Const: Empty": {
+    "scope": "typescript",
+    "prefix": "ce",
+    "body": "const ${1:element} = $2;"
+  },
+  // Functions
+  "Function: Expression": {
+    "scope": "typescript",
+    "prefix": "fe",
+    "body": "const ${1:name} = (${2:arguments}) => {\n\t$3\n};"
+  },
+  "Function: Method": {
+    "scope": "typescript",
+    "prefix": "fm",
+    "body": "${1:name}(${2:arguments}) {\n\t$3\n};"
+  },
+  // Loops
+  "Loop: For Each": {
+    "scope": "typescript",
+    "prefix": "lfe",
+    "body": "${1:array}.forEach((${2:item}) => {\n\t$3\n});"
+  }
+}

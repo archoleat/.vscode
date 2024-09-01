@@ -1,0 +1,67 @@
+{
+  // Loops
+  "Loop: Each": {
+    "scope": "jade",
+    "prefix": "le",
+    "body": "each ${1:item} in ${2:array}.${3:items}\n\t $4"
+  },
+  // Conditions
+  "Condition: Ternary": {
+    "scope": "jade",
+    "prefix": "ct",
+    "body": "$1 ? $2 : $3"
+  },
+  "Image: Background": {
+    "scope": "jade",
+    "prefix": "ibg",
+    "body": ".bg-cover.${1:name}__image\n\timg(src='@img$2' alt='$3' loading='lazy')"
+  },
+  "Image: Background (link)": {
+    "scope": "jade",
+    "prefix": "ibgl",
+    "body": "a.bg-cover.${1:name}__image(href='$2')\n\timg(src='@img$3' alt='$4' loading='lazy')"
+  },
+  "Image: Sprite (SVG)": {
+    "scope": "jade",
+    "prefix": "is",
+    "body": "svg\n\tuse(href='@images/icons/sprite.svg#$0')"
+  },
+  // Buttons
+  "Button": {
+    "scope": "jade",
+    "prefix": "b",
+    "body": "button.button(type='${1:button}') $2"
+  },
+  "Button: Link": {
+    "scope": "jade",
+    "prefix": "bl",
+    "body": "a.button(href='$1' ${2:target='_blank'} ${2:rel='noopener'}) $3"
+  },
+  // Components
+  "Component: Breadcrumbs": {
+    "scope": "jade",
+    "prefix": "cb",
+    "body": "nav.breadcrumbs(aria-label='breadcrumbs')\n\tul.breadcrumbs__list\n\t\tli.link\n\t\t\ta(href='#') ${1:prev}\n\t\tli.link\n\t\t\tspan(aria-current='page') ${2:current}"
+  },
+  "Component: Swiper": {
+    "scope": "jade",
+    "prefix": "csw",
+    "body": ".swiper\n\t.swiper-wrapper.${1:name}__wrapper\n\t\t.swiper-slide.${1:name}__slide\n\t\t\t$2\n\t.swiper-pagination\n\t\tbutton.swiper-button-prev(type='button') $3\n\t\tbutton.swiper-button-next(type='button') $4"
+  },
+  // Forms
+  "Component: Quantity": {
+    "scope": "jade",
+    "prefix": "cq",
+    "body": ".quantity(data-quantity)\n\tbutton.quantity__button.quantity__button--plus(type='button' data-quantity-plus)\n\t.quantity__input\n\t\tinput(type='text' value='1' name='quantity' data-quantity-value)\n\tbutton.quantity__button.quantity__button--minus(type='button' data-quantity-minus)"
+  },
+  "Component: Radio": {
+    "scope": "jade",
+    "prefix": "cr",
+    "body": ".options\n\tlabel.option\n\t\tinput.option__input(type='radio' name='option' checked)\n\t\tspan.option__box\n\t\t| text\n\tlabel.option\n\t\tinput.option__input(type='radio' name='option')\n\t\tspan.option__box\n\t\t| text"
+  },
+  "Component: Checkbox": {
+    "scope": "jade",
+    "prefix": "cc",
+    "body": ".checkboxes\n\tlabel.checkbox\n\t\tinput.checkbox__input(type='checkbox' name='checkbox')\n\t\tspan.checkbox__box\n\t\t\tsvg\n\t\t\t\tuse(href='@img/icons/sprite.svg#${0:check}')\n\t\t| text"
+  }
+}
